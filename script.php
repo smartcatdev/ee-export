@@ -1,8 +1,5 @@
 <?php 
 
-include( dirname( __FILE__ ) . '/categories.php' );
-include( dirname( __FILE__ ) . '/data.php' );
-
 $categories = json_decode( file_get_contents( dirname( __FILE__ ) . '/categories.json' ) );
 $data = json_decode( file_get_contents( dirname( __FILE__ ) . '/data.json' ) );
 
