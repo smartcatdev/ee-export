@@ -31,5 +31,6 @@ where a.channel_id = 1 and a.status = "open"
 - Copy code into data.json minus the comments, the file should only contain the actual JSON object
 
 ## Importing the data into WordPress
-- Upload and activate the plugin
-- Go to EE Import in the dashboard and hit the Do Import button
+1. Upload and activate the plugin
+2. Go to EE Import in the dashboard and hit the Do Import button
+3. Profit
