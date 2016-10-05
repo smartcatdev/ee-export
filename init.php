@@ -7,7 +7,7 @@
  */
 
 if( !defined( 'ABSPATH' ) ) :
-    die;
+    die( 'Booo wendy' );
 endif;
 
 new EEImport();
