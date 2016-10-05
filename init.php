@@ -2,7 +2,8 @@
 /**
  * Plugin name: Expression Engine
  * Description: loads data that's already been exported from EE into WordPress
- * Author: Kael
+ * Author: Smartcat
+ * Author URI: https://smartcatdesign.net 
  */
 
 if( !defined( 'ABSPATH' ) ) :
