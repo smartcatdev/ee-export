@@ -1,7 +1,7 @@
 How to use this to export/import your site:
 
 ## Exporting the Categories
-- Import your .sql file into your local PHPMYAdmin
+- Import your EE .sql file into your local PHPMYAdmin
 - Run this SQL command
     ```` SQL
     select cat_id, cat_name from exp_categories
@@ -29,3 +29,7 @@ where a.channel_id = 1 and a.status = "open"
 - Under Query Result Operations, click on Export
 - Select JSON ad the format
 - Copy code into data.json minus the comments, the file should only contain the actual JSON object
+
+## Importing the data into WordPress
+- Upload and activate the plugin
+- Go to EE Import in the dashboard and hit the Do Import button
